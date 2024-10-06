@@ -79,6 +79,7 @@ dependencies {
     annotationProcessor("org.spongepowered:mixin:0.8.5-SNAPSHOT:processor")
 
     implementation fg.deobf("curse.maven:monolib-968432:5443121")
+    implementation fg.deobf("curse.maven:retro-damage-indicators-1003431:5268035")
 }
 
 tasks.withType(JavaCompile).configureEach {

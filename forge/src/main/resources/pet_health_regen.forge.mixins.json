@@ -1,18 +1,21 @@
 {
     "required": true,
     "minVersion": "0.8",
-    "package": "com.cursee.examplemod.mixin",
+    "package": "com.cursee.pet_health_regen.mixin",
+    "plugin": "com.cursee.pet_health_regen.Configuration",
     "refmap": "${mod_id}.refmap.json",
     "compatibilityLevel": "JAVA_17",
     "mixins": [
     ],
     "client": [
-        "MinecraftMixin"
     ],
     "server": [
+        "ForgeAbstractHorseMixin",
+        "ForgeCatMixin",
+        "ForgeShoulderRidingEntityMixin",
+        "ForgeWolfMixin"
     ],
     "injectors": {
         "defaultRequire": 1
     }
 }
-

@@ -1,7 +1,7 @@
-package com.cursee.examplemod.platform;
+package com.cursee.pet_health_regen.platform;
 
-import com.cursee.examplemod.Constants;
-import com.cursee.examplemod.platform.services.IPlatformHelper;
+import com.cursee.pet_health_regen.Constants;
+import com.cursee.pet_health_regen.platform.services.IPlatformHelper;
 
 import java.util.ServiceLoader;
 

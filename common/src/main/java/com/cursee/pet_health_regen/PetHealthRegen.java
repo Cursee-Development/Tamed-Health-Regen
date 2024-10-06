@@ -1,6 +1,6 @@
-package com.cursee.examplemod;
+package com.cursee.pet_health_regen;
 
-public class ExampleMod {
+public class PetHealthRegen {
 
     public static boolean debugCommon = false;
 

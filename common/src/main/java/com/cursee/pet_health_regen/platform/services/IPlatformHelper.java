@@ -1,4 +1,4 @@
-package com.cursee.examplemod.platform.services;
+package com.cursee.pet_health_regen.platform.services;
 
 public interface IPlatformHelper {
 

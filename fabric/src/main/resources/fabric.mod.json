@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "examplemod",
+    "id": "pet_health_regen",
     "version": "${version}",
     "name": "${mod_name}",
     "description": "${description}",
@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.cursee.examplemod.ExampleModFabric"
+            "com.cursee.pet_health_regen.PetHealthRegenFabric"
         ]
     },
     "mixins": [
